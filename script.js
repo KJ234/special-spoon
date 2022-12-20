@@ -21,7 +21,7 @@ function getBored() {
         activity.innerHTML = 'Activity: ' + data.activity
      
         participants.innerHTML = 'Participants: ' + data.participants
-        price.innerHTML = 'Price: ' + data.price
+        price.innerHTML = 'Price: ' + Math.floor(data.price)
         type.innerHTML = 'Type: ' + data.type
 
 
